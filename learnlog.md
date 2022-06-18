@@ -222,3 +222,7 @@ python manage.py startapp users
 // delete posts
 
 // add another superuser
+
+
+!!! CANT CREATE NEW USERS !!!
+
