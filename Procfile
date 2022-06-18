@@ -1,0 +1,1 @@
+web: gunicorn AVoid5.wsgi
