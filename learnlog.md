@@ -434,4 +434,11 @@ for post in posts_json:
 
 ```
 
+### 12 Password Reset
+
+```python
+
+// setup stmp password reset
+
+```
 
