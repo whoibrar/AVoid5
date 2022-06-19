@@ -112,11 +112,11 @@ USE_TZ = True
 
 # deploy heroku
 STATIC_ROOT = os.path.join(BASE_DIR, 'staticfiles')
-STATIC_URL = '/static/'
-STATICFILES_DIRS = (
-    os.path.join(BASE_DIR, 'static'),
-)
-STATICFILES_STORAGE = 'whitenoise.storage.CompressedManifestedStaticFilesStorage'
+#  STATIC_URL = '/static/'
+#  STATICFILES_DIRS = (
+#     os.path.join(BASE_DIR, 'static'),
+# )
+# STATICFILES_STORAGE = 'whitenoise.storage.CompressedManifestedStaticFilesStorage'
 
 # Default primary key field type
 # https://docs.djangoproject.com/en/4.0/ref/settings/#default-auto-field

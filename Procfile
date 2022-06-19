@@ -1,1 +1,1 @@
-web: gunicorn AVoid5.wsgi
+web: gunicorn AVoid5.wsgi --log-file - 
