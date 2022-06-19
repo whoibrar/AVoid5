@@ -23,9 +23,9 @@
 
 ## ChangeLogs
 
-Instead of version numbers using [GitDate](https://taylorbrazelton.com/2022/06/06/2022-06-06-bye-bye-semantic-versioning-say-hello-to-gitdate/) i.e, YYYY-MM-DD <commit>
+Instead of version numbers using [GitDate](https://taylorbrazelton.com/2022/06/06/2022-06-06-bye-bye-semantic-versioning-say-hello-to-gitdate/) i.e, YYYY-MM-DD COMMIT_ID
 
-### 2022-06-19 
+### 2022-06-19 bf38d31 
 
 - Main Navigation is working
 - Deployed Successfully
