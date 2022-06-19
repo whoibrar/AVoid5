@@ -1,5 +1,5 @@
 import os
-import django_heroku
+# import django_heroku
 from pathlib import Path
 
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
@@ -11,12 +11,12 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 
 # SECURITY WARNING: keep the secret key used in production secret!
 # SECRET_KEY = 'django-insecure-1fy$%w5nx&^de5&)pg3nyx032s(w_k(_w=8sveb#!%ifo1hms%'
-SECRET_KEY = os.environ.get('DJANGO_SECRET_KEY')
+SECRET_KEY = "d6a8fb62ce70a9ea5e236e2e6cb561fd2bd262be1834de6e"
 
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['avoid5.herokuapp.com']
+ALLOWED_HOSTS = ['avoid5.herokuapp.com', '127.0.0.1']
 
 
 # Application definition
@@ -112,7 +112,7 @@ USE_TZ = True
 
 # deploy heroku
 STATIC_ROOT = os.path.join(BASE_DIR, 'staticfiles')
-#  STATIC_URL = '/static/'
+STATIC_URL = '/static/'
 #  STATICFILES_DIRS = (
 #     os.path.join(BASE_DIR, 'static'),
 # )
@@ -152,4 +152,4 @@ EMAIL_HOST_PASSWORD = os.environ.get('EMAIL_PASS')
 
 # heroku
 
-django_heroku.settings(locals())
+# django_heroku.settings(locals())
